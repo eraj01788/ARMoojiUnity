@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "262161156516",
+    "firebase_url": "https://armooji-71e03-default-rtdb.firebaseio.com",
+    "project_id": "armooji-71e03",
+    "storage_bucket": "armooji-71e03.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:262161156516:android:786e4335aff37016b99931",
+        "android_client_info": {
+          "package_name": "com.askalora.ARMooji"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "262161156516-uglnqefoh6i3qpgeo7ejacnss0rhf16o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.askalora.ARMooji",
+            "certificate_hash": "0524f8dd50c79bbbfc49b0e2fdc32164f846f1b4"
+          }
+        },
+        {
+          "client_id": "262161156516-m6ok4oqdo6mju373nfh9ic1uq2mft4se.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAef6fnlvPcP-5I-H5cEXNbRtK4JWVpwRo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "262161156516-m6ok4oqdo6mju373nfh9ic1uq2mft4se.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "262161156516-q8h8sqhohvvip3s74hg99q7b99ru0dm5.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.askalora.ARMooji"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

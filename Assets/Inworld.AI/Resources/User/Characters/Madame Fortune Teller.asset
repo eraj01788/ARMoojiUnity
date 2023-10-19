@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0447596b1a67de49ba5720fda0bdabe, type: 3}
+  m_Name: Madame Fortune Teller
+  m_EditorClassIdentifier: 
+  characterName: Madame Fortune Teller
+  brain: workspaces/alora/characters/madame_fortune_teller
+  avatar: {fileID: 0}
+  workspace: workspaces/alora
+  currentScene: workspaces/alora/characters/madame_fortune_teller
+  ownerShip: 0
+  defaultThumbnail: {fileID: 2800000, guid: d67db12d5087c9b4aaf8cb8b1c8f4d2a, type: 3}
+  index: 0
+  triggers: []
+  scenes:
+  - workspaces/alora/scenes/test
+  modelUri: https://storage.googleapis.com/inworld-ai-usercontent-prod/rpm_model/f16ec8bd-2c68-4ff7-9852-6ff90c81457f.glb
+  posUri: https://storage.googleapis.com/inworld-ai-usercontent-prod/rpm_image/f16ec8bd-2c68-4ff7-9852-6ff90c81457f_posture.jpg
+  previewImgUri: https://storage.googleapis.com/inworld-ai-usercontent-prod/rpm_image/f16ec8bd-2c68-4ff7-9852-6ff90c81457f_portrait.jpg
+  characterID: 

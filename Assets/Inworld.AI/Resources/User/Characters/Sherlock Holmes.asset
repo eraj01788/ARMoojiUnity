@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0447596b1a67de49ba5720fda0bdabe, type: 3}
+  m_Name: Sherlock Holmes
+  m_EditorClassIdentifier: 
+  characterName: Sherlock Holmes
+  brain: workspaces/alora/characters/sherlock_holmes
+  avatar: {fileID: 0}
+  workspace: workspaces/alora
+  currentScene: workspaces/alora/characters/sherlock_holmes
+  ownerShip: 0
+  defaultThumbnail: {fileID: 2800000, guid: b18af44ac06754f4b9ee7e352b5fe17f, type: 3}
+  index: 0
+  triggers: []
+  scenes:
+  - workspaces/alora/scenes/test
+  modelUri: https://storage.googleapis.com/inworld-ai-usercontent-prod/rpm_model/1ab06a6a-5cca-4d76-9e69-e6457c5e4ea5.glb
+  posUri: https://storage.googleapis.com/inworld-ai-usercontent-prod/rpm_image/1ab06a6a-5cca-4d76-9e69-e6457c5e4ea5_posture.jpg
+  previewImgUri: https://storage.googleapis.com/inworld-ai-usercontent-prod/rpm_image/1ab06a6a-5cca-4d76-9e69-e6457c5e4ea5_portrait.jpg
+  characterID: 

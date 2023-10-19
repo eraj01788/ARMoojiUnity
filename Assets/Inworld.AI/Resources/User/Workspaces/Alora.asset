@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 679553faa086cdc48a58556300e27230, type: 3}
+  m_Name: Alora
+  m_EditorClassIdentifier: 
+  title: Alora
+  fullName: workspaces/alora
+  characters:
+  - {fileID: 11400000, guid: 83f696c960aa346449bc4de6a27cbf88, type: 2}
+  - {fileID: 11400000, guid: acadbc607e148544bb1a978e6c14fdb8, type: 2}
+  - {fileID: 11400000, guid: baf442c3556c3964c9e5d61b7416a0af, type: 2}
+  - {fileID: 11400000, guid: 1ddfad1c129fb4f4d904e8128479d2e5, type: 2}
+  - {fileID: 11400000, guid: 31b2b1ba14494e345b34083c52072ea1, type: 2}
+  - {fileID: 11400000, guid: 39b5556817c5bce48910401235396d7a, type: 2}
+  - {fileID: 11400000, guid: c682abe80fd2fec4fa7490f669dd683f, type: 2}
+  - {fileID: 11400000, guid: 78aafe941f748374d988bd2f6e067403, type: 2}
+  - {fileID: 11400000, guid: 91d591d9798651c4d90d8c8f75d57400, type: 2}
+  - {fileID: 11400000, guid: ca9c294b2cb5af0428eac56aacf08054, type: 2}
+  - {fileID: 11400000, guid: 93b91b72e963f4942804402448710a4b, type: 2}
+  - {fileID: 11400000, guid: b98568ecc9c987f4c8e7b908c772a5f6, type: 2}
+  - {fileID: 0}
+  scenes:
+  - {fileID: 11400000, guid: 18f38e195c086c2409f787467b0dc751, type: 2}
+  integrations:
+  - {fileID: 11400000, guid: 824d718501cf7714fb8374d02635fbf5, type: 2}
+  index: 0

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0447596b1a67de49ba5720fda0bdabe, type: 3}
+  m_Name: Healthcare Companion
+  m_EditorClassIdentifier: 
+  characterName: Healthcare Companion
+  brain: workspaces/alora/characters/healthcare_companion
+  avatar: {fileID: 0}
+  workspace: workspaces/alora
+  currentScene: workspaces/alora/characters/healthcare_companion
+  ownerShip: 0
+  defaultThumbnail: {fileID: 2800000, guid: a5e4e338b9617ce4994ac32cce37d449, type: 3}
+  index: 0
+  triggers: []
+  scenes:
+  - workspaces/alora/scenes/test
+  modelUri: https://storage.googleapis.com/inworld-ai-usercontent-prod/rpm_model/b7284b3a-75dd-4e46-9a12-05c9cd082fa2.glb
+  posUri: https://storage.googleapis.com/inworld-ai-usercontent-prod/rpm_image/b7284b3a-75dd-4e46-9a12-05c9cd082fa2_posture.jpg
+  previewImgUri: https://storage.googleapis.com/inworld-ai-usercontent-prod/rpm_image/b7284b3a-75dd-4e46-9a12-05c9cd082fa2_portrait.jpg
+  characterID: 

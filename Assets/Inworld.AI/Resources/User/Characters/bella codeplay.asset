@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0447596b1a67de49ba5720fda0bdabe, type: 3}
+  m_Name: bella codeplay
+  m_EditorClassIdentifier: 
+  characterName: bella codeplay
+  brain: workspaces/default-ads2jdl_b5k2qzcoxkle-w/characters/bella_codeplay
+  avatar: {fileID: 0}
+  workspace: workspaces/default-ads2jdl_b5k2qzcoxkle-w
+  currentScene: workspaces/default-ads2jdl_b5k2qzcoxkle-w/characters/bella_codeplay
+  ownerShip: 0
+  defaultThumbnail: {fileID: 2800000, guid: 9c5f63f149dfe4748b1eae708448bdfc, type: 3}
+  index: 0
+  triggers: []
+  scenes:
+  - workspaces/default-ads2jdl_b5k2qzcoxkle-w/scenes/armooji
+  modelUri: https://storage.googleapis.com/inworld-ai-usercontent-prod/rpm_model/46b26a79-5e76-4c77-8476-909c2334f83e.glb
+  posUri: https://storage.googleapis.com/inworld-ai-usercontent-prod/rpm_image/46b26a79-5e76-4c77-8476-909c2334f83e_posture.jpg
+  previewImgUri: https://storage.googleapis.com/inworld-ai-usercontent-prod/rpm_image/46b26a79-5e76-4c77-8476-909c2334f83e_portrait.jpg
+  characterID: 1188100e-278f-4e78-926e-79d5b9ca50d8

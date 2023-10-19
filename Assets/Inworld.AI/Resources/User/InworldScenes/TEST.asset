@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3ad0515a2868cd4282589144c7820fd, type: 3}
+  m_Name: TEST
+  m_EditorClassIdentifier: 
+  fullName: workspaces/alora/scenes/test
+  shortName: TEST
+  description: Future city
+  characters:
+  - workspaces/alora/characters/alora
+  - workspaces/alora/characters/barbie
+  - workspaces/alora/characters/captain_hook
+  - workspaces/alora/characters/madame_fortune_teller
+  - workspaces/alora/characters/sherlock_holmes
+  - workspaces/alora/characters/the_mad_hatter
+  - workspaces/alora/characters/the_queen_of_hearts
+  - workspaces/alora/characters/the_white_rabbit
+  - workspaces/alora/characters/the_cheshire_cat
+  - workspaces/alora/characters/cooking_assistant
+  - workspaces/alora/characters/educational_mentor
+  - workspaces/alora/characters/healthcare_companion
+  triggers: []
+  index: 0
