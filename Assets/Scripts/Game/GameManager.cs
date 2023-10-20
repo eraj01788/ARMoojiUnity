@@ -10,6 +10,7 @@ using Mapbox.Unity.Map;
 using Mapbox.Utils;
 using UnityEditor;
 using System;
+using GLTFast.Schema;
 
 public class GameManager : MonoBehaviour
 {
@@ -30,6 +31,7 @@ public class GameManager : MonoBehaviour
     public List<MultipleDropPrefabManager> multipleDropPrefabManagers = new List<MultipleDropPrefabManager>();
     LoginManager loginManager;
     public List<GameObject> DropPrefabs = new List<GameObject>();
+    public GameObject ARCamera,NonARCamera;
 
     private void Start()
     {
@@ -223,20 +225,13 @@ public class GameManager : MonoBehaviour
                 objectName = "";
                 Destroy(selectedCheckMark);
                 messageTextSeeAll.text = "";
+                OpenARCamera();
+                FindObjectOfType<PanelManager>().ShowPanel("EmptyPanel");
             }
             else
             {
                 messageTextSeeAll.GetComponent<RectTransform>().DOPunchScale(new Vector3(0.2f, 0.2f, 0.2f), 0.15f, 1);
             }
-        }
-        else if(SelectedAI != null)
-        {
-            FindAnyObjectByType<TapToPlaceobject>().enabled = true;
-            FindAnyObjectByType<TapToPlaceobject>().AI = SelectedAI;
-            PlaceIndecator.SetActive(true);
-            ScanIns.SetActive(true);
-            Destroy(selectedCheckMark);
-            FindAnyObjectByType<PanelManager>().ShowPanel("EmptyPanel");
         }
     }
 
@@ -247,7 +242,13 @@ public class GameManager : MonoBehaviour
 
     public void SelectAI(GameObject _AI)
     {
-        SelectedAI = _AI; 
+        OpenARCamera();
+        SelectedAI = _AI;
+        FindAnyObjectByType<TapToPlaceobject>().enabled = true;
+        FindAnyObjectByType<TapToPlaceobject>().AI = SelectedAI;
+        PlaceIndecator.SetActive(true);
+        ScanIns.SetActive(true);
+        FindAnyObjectByType<PanelManager>().ShowPanel("EmptyPanel");
     }
 
     public void SelectImoji(GameObject Imoji)
@@ -294,13 +295,37 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public void BackToHome_Find_Chat()
+    public void BackToHome()
     {
         if (FindAnyObjectByType<TapToPlaceobject>().enabled)
         {
             FindAnyObjectByType<TapToPlaceobject>().DestroyObject();
             FindAnyObjectByType<TapToPlaceobject>().enabled = false;
+            PlaceIndecator.SetActive(false);
             InWorlChatUI.SetActive(false);
+            ScanIns.SetActive(false);
         }
     }
+
+    public void OpenARCamera()
+    {
+        ARCamera.SetActive(true);
+        NonARCamera.SetActive(false);
+    }
+
+    public void CloseARCamera()
+    {
+        ARCamera.SetActive(false);
+        NonARCamera.SetActive(true);
+    }
+
+    public void OpenEmptyPanel()
+    {
+        FindAnyObjectByType<TapToPlaceobject>().DestroyObject();
+        FindAnyObjectByType<TapToPlaceobject>().enabled = false;
+        PlaceIndecator.SetActive(false);
+        InWorlChatUI.SetActive(false);
+        ScanIns.SetActive(false);
+    }
 }
+
